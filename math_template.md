@@ -133,11 +133,11 @@ These typeset like proper math operators:
 
 ## 9) Summations, products, and sequences/series
 
-* Sum: `$\sum_{k=1}^n a_k$`
-* Infinite series: `$\sum_{n=1}^\infty a_n$`
-* Product: `$\prod_{k=1}^n a_k$`
-* Sequence: `$(a_n)_{n\ge 1}$`
-* Big-O/little-o: `$O(n),\ o(n)$`
+* Sum: $\sum_{k=1}^n a_k$
+* Infinite series: $\sum_{n=1}^\infty a_n$
+* Product: $\prod_{k=1}^n a_k$
+* Sequence: $(a_n)_{n\ge 1}$
+* Big-O/little-o: $O(n),\ o(n)$
 
 ---
 
@@ -149,6 +149,13 @@ These typeset like proper math operators:
 * One-sided: $\lim_{x\to 0^+} f(x)$
 * Continuity: $f$ is continuous at $a$
 * Convergence in a metric: $x_n\to x$
+
+## Equivalence
+
+* $\cong$
+* $\equiv$
+* $\ncong$
+* $\simeq$
 
 ### Derivatives
 
