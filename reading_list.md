@@ -34,10 +34,6 @@ Some examples of the style of books we are aiming for: "Real Analysis" by Jay Cu
 - [ ] Abstract Algebra, Pinter
 - [ ] Visual Group Theory
 
-### Probability
-
-- [ ] Introduction to Probability, by Blitzstein & Hwang
-
 ### Topology
 
 - [ ] Topology, by Munkres
@@ -48,7 +44,7 @@ Some examples of the style of books we are aiming for: "Real Analysis" by Jay Cu
 
 ### Linear Algebra
 
-- [ ] Finite-Dimensional Vector Spaces, by Halmos
+- [ ] Numerical Linear Algebra, by Trefethen & Bau
 
 ### Analysis 
 
@@ -62,8 +58,20 @@ Some examples of the style of books we are aiming for: "Real Analysis" by Jay Cu
 ### Probability
 
 - [ ] First Look At Rigorous Probability Theory, Rosenthal
-- [ ] High-Dimensional Probability: An Introduction with Applications in Data Science by Roman Vershynin
+- [ ] Probability, Durrett
 
+
+### Statistics
+
+- [ ] Statistical Inference, by Casella & Berger
+
+### Differential Equations
+
+- [ ] Ordinary Differential Equations, by V.I. Arnold
+
+### Dynamical Systems
+
+- [ ] Nonlinear Dynamics and Chaos, by Steven Strogatz
 
 ### Optimization
 
@@ -72,16 +80,28 @@ Some examples of the style of books we are aiming for: "Real Analysis" by Jay Cu
 
 ## Stage 3
 
-### Probability 
+### Probability
 
-- [ ] Probability, Durrett
+- [ ] High-Dimensional Probability: An Introduction with Applications in Data Science by Roman Vershynin
 
 ### Information Theory
 
 - [ ] Information Theory, by MacKay
 
 
-### Geometry 
+### Functional Analysis
+
+- [ ] Introductory Functional Analysis with Applications, by Kreyszig
+
+### Optimal Control
+
+- [ ] Calculus of Variations and Optimal Control Theory, by Daniel Liberzon
+
+### Applied Mathematics
+
+- [ ] Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control, by Brunton & Kutz
+
+### Geometry
 
 - [ ] Visual Differential Geometry, Needham
 
@@ -94,6 +114,14 @@ Some examples of the style of books we are aiming for: "Real Analysis" by Jay Cu
 ### Analysis
 
 - [ ] Understanding Analysis, Abbott
+
+### Functional Analysis
+
+- [ ] Introductory Real Analysis, by Kolmogorov & Fomin
+
+### Probability
+
+- [ ] Introduction to Probability, by Blitzstein & Hwang
 
 ### Linear Algebra
 
