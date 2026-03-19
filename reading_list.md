@@ -57,7 +57,6 @@ Some examples of the style of books we are aiming for: "Real Analysis" by Jay Cu
 
 ### Probability
 
-- [ ] First Look At Rigorous Probability Theory, Rosenthal
 - [ ] Probability, Durrett
 
 
@@ -122,6 +121,7 @@ Some examples of the style of books we are aiming for: "Real Analysis" by Jay Cu
 ### Probability
 
 - [ ] Introduction to Probability, by Blitzstein & Hwang
+- [ ] First Look At Rigorous Probability Theory, Rosenthal
 
 ### Linear Algebra
 
