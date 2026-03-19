@@ -1,108 +1,107 @@
 # Reading List
 
-Prioritize books that emphasize deep intuitive understanding of topics, have plenty of discussions and examples, and also empasise regorous proofs. 
-Some examples of the style of books we are aiming for: "Real Analysis" by Jay Cummings, "Understanding Analysis" by Jay Cummings, "Linear Algebra Done Right" by Axler, "Understanding Analysis" by Abbot. 
+Prioritize books that emphasize deep intuitive understanding of topics, have plenty of discussions and examples, and also emphasise rigorous proofs.
+Some examples of the style of books we are aiming for: "Real Analysis" by Jay Cummings, "Linear Algebra Done Right" by Axler, "Understanding Analysis" by Abbott. 
+
+Goals:
+
+* Achieve mathematical maturity 
+* Get to a level of deep and intuitive understanding of why things work in areas of machine learning, control theory, digital signal processing.
+* avoid 'recipe' books that show methods but do not show proofs or why things work. For example, a lot of statistics and ML books are like this. 
+* Be able to create and prove own theories.
 
 ## Stage 1
 
-### Proofs
+Books within the same track (A, B, C) are sequential. Different tracks can be read in parallel.
+
+### Track A: Analysis
 
 - [X] Proofs, Jay Cummings
-
-### Analysis
-
-
 - [O] Real Analysis, Jay Cummings
 
-
-### Linear Algebra
+### Track B: Linear Algebra
 
 - [ ] Introduction to Linear Algebra, Strang
+  - Emphasize: Ch 1-7 (core linear algebra). Ch 8-12 (applications, numerical methods) are useful but less critical since Trefethen & Bau covers numerical LA later.
 - [ ] Linear Algebra Done Right, Axler
+  - Read cover to cover. Every chapter builds on the last.
 - [ ] Linear and Geometric Algebra, Macdonald
+  - Emphasize: Part II (geometric algebra). Part I overlaps with Strang/Axler — skim for review.
 
-### Multivariable Calculus
-
-- [ ] Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach by Hubbard & Hubbard
-
-### Set Theory
+### Track C: Foundations (short reads, parallel with A or B)
 
 - [ ] Naive Set Theory, Halmos
-
-### Abstract Algebra
-
-- [ ] Abstract Algebra, Pinter
+  - Emphasize: Ch 1-18 (sets, relations, functions, cardinality). Ch 19-25 (ordinals, cardinal arithmetic, axiom of choice) — read for exposure but don't get stuck.
 - [ ] Visual Group Theory
 
-### Topology
+### After Tracks A + B:
 
-- [ ] Topology, by Munkres
+- [ ] Vector Calculus, Linear Algebra, and Differential Forms: A Unified Approach by Hubbard & Hubbard
+  - Emphasize: Ch 1-4 (derivatives in R^n, inverse/implicit function theorems, integration). Ch 5-6 (differential forms, manifolds) can be deferred — Needham covers this more intuitively later.
 
 ---
 
 ## Stage 2
 
-### Linear Algebra
+Books within the same track are sequential. Different tracks can be read in parallel.
 
-- [ ] Numerical Linear Algebra, by Trefethen & Bau
+### Track A: Analysis
 
-### Analysis 
-
-- [ ] Fourier Analysis: An Introduction by Stein and Shakarchi
 - [ ] Analysis I and II, Terrence Tao
-- [ ] Measures, Integrals, and Matringales by Rene Schilling
+  - Analysis I: Skim chapters on construction of reals (unique to Tao), focus on the later chapters building on Cummings.
+  - Analysis II: Read carefully — metric spaces, Lebesgue integration, multivariable differential calculus are new and critical.
+- [ ] Measures, Integrals, and Martingales by Rene Schilling
+  - Read cover to cover. This is the measure theory foundation for Durrett and Vershynin.
+  - Companion: "Counterexamples in Measure and Integration" by Schilling. Use as a reference alongside each chapter — don't read sequentially.
+- [ ] Fourier Analysis: An Introduction by Stein and Shakarchi
+  - Emphasize: Ch 1-6 (Fourier series, Fourier transform, applications). Ch 7-8 (finite Fourier analysis, Dirichlet's theorem) are less critical for DSP/ML.
 - [ ] Visual Complex Analysis, Tristan Needham
+  - Can be read selectively. Emphasize: Ch 1-8 (geometry of complex maps, Mobius transformations, conformal mappings, contour integration). Ch 9-12 are more specialized.
 
+### Track B: Differential Equations and Dynamical Systems
 
+- [ ] Ordinary Differential Equations, by V.I. Arnold
+  - Emphasize: Ch 1-4 (phase spaces, vector fields, linear systems, stability). Ch 5-6 (oscillations, symmetry) are enriching but less essential.
+- [ ] Nonlinear Dynamics and Chaos, by Steven Strogatz
+  - Emphasize: Ch 1-9 (bifurcations, phase plane, limit cycles, Lorenz system). Ch 10-12 (fractals, strange attractors) are fascinating but less directly applicable.
 
-### Probability
+### Track C: Probability (after Track A: Schilling)
 
 - [ ] Probability, Durrett
 
+### Track D: Applied (parallel with any track)
 
-### Statistics
-
-- [ ] Statistical Inference, by Casella & Berger
-
-### Differential Equations
-
-- [ ] Ordinary Differential Equations, by V.I. Arnold
-
-### Dynamical Systems
-
-- [ ] Nonlinear Dynamics and Chaos, by Steven Strogatz
-
-### Optimization
-
+- [ ] Numerical Linear Algebra, by Trefethen & Bau
 - [ ] Convex Optimization, by Boyd
-
+  - Emphasize: Ch 1-5 (convex sets, functions, optimization problems, duality). Ch 6-11 (algorithms, applications) are useful but more computational/applied.
+- [ ] Statistical Inference, by Casella & Berger
+- [ ] Abstract Algebra, Pinter
 
 ## Stage 3
 
-### Probability
+Different tracks can be read in parallel.
+
+### Track A: Probability (after Stage 2 Track C)
 
 - [ ] High-Dimensional Probability: An Introduction with Applications in Data Science by Roman Vershynin
+- [ ] Stochastic Differential Equations, by Oksendal (also needs Track B: Kreyszig)
 
-### Information Theory
-
-- [ ] Information Theory, by MacKay
-
-
-### Functional Analysis
+### Track B: Functional Analysis
 
 - [ ] Introductory Functional Analysis with Applications, by Kreyszig
 
-### Optimal Control
+### Track C: Geometry (parallel with any track)
+
+- [ ] Visual Differential Geometry, Needham
+
+### Track D: Control (after Stage 2 Tracks B + D)
 
 - [ ] Calculus of Variations and Optimal Control Theory, by Daniel Liberzon
 
-### Applied Mathematics
+### Track E: Applications (parallel with any track)
 
+- [ ] Information Theory, Inference, and Learning Algorithms, by MacKay
 - [ ] Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control, by Brunton & Kutz
-
-### Geometry
-
-- [ ] Visual Differential Geometry, Needham
 
 ## Optional Reading 
 
@@ -129,6 +128,10 @@ Some examples of the style of books we are aiming for: "Real Analysis" by Jay Cu
 - [ ] Advanced Linear and Matrix Algebra, by Nathaniel Johnston
 
 
+### Topology
+
+- [ ] Topology, by Munkres
+  - Emphasize: Part I only (Ch 1-8: topological spaces, connectedness, compactness, metric spaces, countability/separation axioms). Part II (algebraic topology) is a separate subject — skip unless heading toward Hatcher.
 
 
 
