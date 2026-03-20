@@ -33,6 +33,8 @@ Books within the same track (A, B, C) are sequential. Different tracks can be re
 - [ ] Naive Set Theory, Halmos
   - Emphasize: Ch 1-18 (sets, relations, functions, cardinality). Ch 19-25 (ordinals, cardinal arithmetic, axiom of choice) — read for exposure but don't get stuck.
 - [ ] Visual Group Theory
+- [ ] How to Solve It, Polya
+  - Short read. Builds proof instincts and mathematical thinking habits — how mathematicians approach problems they haven't seen before.
 
 ### After Tracks A + B:
 
@@ -94,14 +96,36 @@ Different tracks can be read in parallel.
 
 - [ ] Visual Differential Geometry, Needham
 
-### Track D: Control (after Stage 2 Tracks B + D)
+---
 
+## Stage 4
+
+Pure math first — this stage is for applying that foundation to the target domains. Different tracks can be read in parallel.
+
+### Track A: Control (after Stage 2 Track B + Stage 3 Track B)
+
+- [ ] Linear System Theory and Design, by Chen
+  - Rigorous and concept-driven. Covers state-space, controllability, observability, stability. Essential bridge before Liberzon.
 - [ ] Calculus of Variations and Optimal Control Theory, by Daniel Liberzon
 
-### Track E: Applications (parallel with any track)
+### Track B: Digital Signal Processing (after Stage 2 Track A: Fourier)
+
+- [ ] Signals and Systems, by Oppenheim & Willsky
+  - Conceptual foundation for LTI systems, convolution, Fourier/Laplace/Z transforms, and sampling. Read after Stein & Shakarchi.
+- [ ] A Wavelet Tour of Signal Processing, by Mallat
+  - Idea-driven and narrative. Builds a deep mental model of time-frequency analysis and wavelets; also connects to ML.
+
+### Track C: Machine Learning Theory (after Stage 3 Track A)
+
+- [ ] Understanding Machine Learning, by Shalev-Shwartz & Ben-David
+  - One of the most explanatory ML theory texts: PAC learning, VC dimension, Rademacher complexity — all with motivated proofs.
+
+### Track D: Capstone (parallel with any track)
 
 - [ ] Information Theory, Inference, and Learning Algorithms, by MacKay
 - [ ] Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control, by Brunton & Kutz
+
+---
 
 ## Optional Reading 
 
