@@ -72,13 +72,15 @@ Books within the same track are sequential. Different tracks can be read in para
 
 - [ ] Probability, Durrett
 
-### Track D: Applied (parallel with any track)
+### Track D: Independent (parallel with any track)
 
 - [ ] Numerical Linear Algebra, by Trefethen & Bau
 - [ ] Convex Optimization, by Boyd
   - Emphasize: Ch 1-5 (convex sets, functions, optimization problems, duality). Ch 6-11 (algorithms, applications) are useful but more computational/applied.
 - [ ] Statistical Inference, by Casella & Berger
 - [ ] Abstract Algebra, Pinter
+- [ ] Topology, by Munkres
+  - Emphasize: Part I only (Ch 1-8: topological spaces, connectedness, compactness, metric spaces, countability/separation axioms). Part II (algebraic topology) is a separate subject — skip unless heading toward Hatcher.
 
 ## Stage 3
 
@@ -165,11 +167,6 @@ Pure math first — this stage is for applying that foundation to the target dom
 - [ ] Introduction to Linear and Matrix Algebra, by Nathaniel Johnston
 - [ ] Advanced Linear and Matrix Algebra, by Nathaniel Johnston
 
-
-### Topology
-
-- [ ] Topology, by Munkres
-  - Emphasize: Part I only (Ch 1-8: topological spaces, connectedness, compactness, metric spaces, countability/separation axioms). Part II (algebraic topology) is a separate subject — skip unless heading toward Hatcher.
 
 ### Digital Signal Processing
 
