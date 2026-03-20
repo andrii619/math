@@ -35,6 +35,7 @@ Books within the same track (A, B, C) are sequential. Different tracks can be re
 - [ ] Visual Group Theory
 - [ ] How to Solve It, Polya
   - Short read. Builds proof instincts and mathematical thinking habits — how mathematicians approach problems they haven't seen before.
+- [ ] Journey Through Genius: Great Theorems of Mathematics, by William Dunham
 
 ### After Tracks A + B:
 
@@ -104,14 +105,17 @@ Pure math first — this stage is for applying that foundation to the target dom
 
 ### Track A: Control (after Stage 2 Track B + Stage 3 Track B)
 
+- [ ] Signals and Systems, by Oppenheim & Willsky
+  - Shared prerequisite with Track B. Conceptual foundation for LTI systems, convolution, Fourier/Laplace/Z transforms, and sampling.
+- [ ] Feedback Systems: An Introduction for Scientists and Engineers, by Karl Johan Astrom and Richard Murray
 - [ ] Linear System Theory and Design, by Chen
   - Rigorous and concept-driven. Covers state-space, controllability, observability, stability. Essential bridge before Liberzon.
 - [ ] Calculus of Variations and Optimal Control Theory, by Daniel Liberzon
 
 ### Track B: Digital Signal Processing (after Stage 2 Track A: Fourier)
 
-- [ ] Signals and Systems, by Oppenheim & Willsky
-  - Conceptual foundation for LTI systems, convolution, Fourier/Laplace/Z transforms, and sampling. Read after Stein & Shakarchi.
+- [ ] Signals and Systems, by Oppenheim & Willsky (shared with Track A)
+- [ ] Understanding Digital Signal Processing, by Richard Lyons
 - [ ] A Wavelet Tour of Signal Processing, by Mallat
   - Idea-driven and narrative. Builds a deep mental model of time-frequency analysis and wavelets; also connects to ML.
 
@@ -120,9 +124,19 @@ Pure math first — this stage is for applying that foundation to the target dom
 - [ ] Understanding Machine Learning, by Shalev-Shwartz & Ben-David
   - One of the most explanatory ML theory texts: PAC learning, VC dimension, Rademacher complexity — all with motivated proofs.
 
-### Track D: Capstone (parallel with any track)
+### Track D: Robotics
+
+- [ ] Robotics, Vision and Control, by Peter Corke
+- [ ] Probabilistic Robotics, by Sebastian Thrun, Wolfram Burgard, and Dieter Fox
+- [ ] State Estimation for Robotics, by Timothy Barfoot
+- [ ] Planning Algorithms, by Steven LaValle
+
+### Track E: Information Theory
 
 - [ ] Information Theory, Inference, and Learning Algorithms, by MacKay
+
+### Track F: Capstone (parallel with any track)
+
 - [ ] Data-Driven Science and Engineering: Machine Learning, Dynamical Systems, and Control, by Brunton & Kutz
 
 ---
@@ -156,6 +170,14 @@ Pure math first — this stage is for applying that foundation to the target dom
 
 - [ ] Topology, by Munkres
   - Emphasize: Part I only (Ch 1-8: topological spaces, connectedness, compactness, metric spaces, countability/separation axioms). Part II (algebraic topology) is a separate subject — skip unless heading toward Hatcher.
+
+### Digital Signal Processing
+
+- [ ] Kalman Filter from the Ground Up, by Alex Becker
+
+### Control
+
+- [ ] Feedback Control of Dynamic Systems, by Franklin and Powell
 
 
 
