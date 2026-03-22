@@ -17,6 +17,7 @@ Books within the same track (A, B, C) are sequential. Different tracks can be re
 ### Track A: Analysis
 
 - [X] Proofs, Jay Cummings
+  - Completed: Chapters 1-5
 - [O] Real Analysis, Jay Cummings
 
 ### Track B: Linear Algebra
@@ -36,6 +37,10 @@ Books within the same track (A, B, C) are sequential. Different tracks can be re
 - [ ] How to Solve It, Polya
   - Short read. Builds proof instincts and mathematical thinking habits — how mathematicians approach problems they haven't seen before.
 - [ ] Journey Through Genius: Great Theorems of Mathematics, by William Dunham
+
+### Abstract Algebra
+
+- [X] Algebra, by Michael Artin
 
 ### After Tracks A + B:
 

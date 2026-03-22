@@ -200,7 +200,7 @@ These typeset like proper math operators:
 
 * Bold vectors (common): `$\mathbf v,\ \mathbf x$`
 * Matrix: `$A\in\mathbb R^{m\times n}$`
-* Transpose: `$A^\top$`
+* Transpose: $A^\top$
 * Conjugate transpose: `$A^*$` or `$A^\dagger$`
 * Inverse: `$A^{-1}$`
 
@@ -233,40 +233,40 @@ These typeset like proper math operators:
 * Homomorphism: `$\varphi:G\to H$`
 * Kernel/image: `$\ker\varphi,\ \operatorname{im}\varphi$`
 * Isomorphism: `$G\cong H$`
-* Direct product: `$G\times H$`
+* Direct product: $G\times H$
 * Generated subgroup: `$\langle S\rangle$`
 
 ### Rings/fields
 
-* Ideal: `$I\trianglelefteq R$` (some write `$I\lhd R$`)
-* Quotient ring: `$R/I$`
-* Units: `$R^\times$`
-* Polynomial ring: `$R[x]$`
-* Field extension: `$L/K$`
+* Ideal: $I\trianglelefteq R$ (some write `$I\lhd R$`)
+* Quotient ring: $R/I$
+* Units: $R^\times$
+* Polynomial ring: $R[x]$
+* Field extension: $L/K$
 
 ---
 
 ## 14) Probability notation (since it shows up in analysis/ML)
 
-* Probability: `$\mathbb P(A)$`
-* Conditional: `$\mathbb P(A\mid B)$`
-* Expectation: `$\mathbb E[X]$`, conditional: `$\mathbb E[X\mid \mathcal F]$`
-* Variance: `$\operatorname{Var}(X)$`
-* Distribution: `$X\sim \mathcal N(0,1)$`, or `$X\sim \mu$`
-* Independence: `$X\perp\!\!\!\perp Y$` (common), or `$X$ independent of $Y$`
-* Almost surely: `$\text{a.s.}$`, in probability: `$\xrightarrow{p}$`, in distribution: `$\xrightarrow{d}$`
-* Indicator: `$\mathbf 1_A$`
+* Probability: $\mathbb P(A)$
+* Conditional: $\mathbb P(A\mid B)$
+* Expectation: $\mathbb E[X]$, conditional: $\mathbb E[X\mid \mathcal F]$
+* Variance: $\operatorname{Var}(X)$
+* Distribution: $X\sim \mathcal N(0,1)$, or $X\sim \mu$
+* Independence: $X\perp\!\!\!\perp Y$ (common), or $X$ independent of $Y$
+* Almost surely: $\text{a.s.}$, in probability: $\xrightarrow{p}$, in distribution: $\xrightarrow{d}$
+* Indicator: $\mathbf 1_A$
 
 ---
 
 ## 15) Arrows, equivalences, and common symbols
 
-* Maps: `$\to,\ \mapsto$`
+* Maps: $\to,\ \mapsto$
 * Convergence: `$\to,\ \Rightarrow$` (be careful: use $\Rightarrow$ for implication, not limits)
-* Approx: `$\approx$`, asymptotic: `$\sim$`
-* Proportional: `$\propto$`
-* Dots: `$\cdots,\ \ldots,\ \vdots,\ \ddots$`
-* Ellipsis in sets: `$\{1,2,\dots,n\}$`
+* Approx: $\approx$, asymptotic: $\sim$
+* Proportional: $\propto$
+* Dots: $\cdots,\ \ldots,\ \vdots,\ \ddots$
+* Ellipsis in sets: $\{1,2,\dots,n\}$
 
 ---
 
