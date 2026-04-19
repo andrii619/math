@@ -45,6 +45,7 @@ Books within the same track are sequential. Different tracks can be read in para
 - [X] Algebra, by Michael Artin
 - [ ] Abstract Algebra, Pinter
   - Refresher: Pinter is gentler than Artin. With CE graduate algebra feeling rusty after ~5 years, read this before Aluffi in Stage 2 to reactivate groups, rings, and field theory.
+- [ ] Contemporary Abstract Algebra by Joseph Gallian
 
 ### After Tracks A + B:
 
@@ -139,6 +140,14 @@ Different tracks can be read in parallel.
   - Deep geometric intuition for curvature, parallel transport, and Gauss-Bonnet. Best read alongside or after Do Carmo.
 - [ ] Introduction to Smooth Manifolds, by John M. Lee
   - The modern rigorous standard for graduate differential geometry. Very well-motivated — Lee explains the *why* at each step. Covers smooth manifolds, tangent bundles, differential forms, integration on manifolds, Stokes' theorem in full generality. Requires Munkres (topology) and Hubbard & Hubbard (multivariable calculus).
+- [ ] Introduction to Riemannian Manifolds, by John M. Lee
+  - The direct sequel to Smooth Manifolds. Adds the metric structure: Riemannian metrics, connections, geodesics, the Riemann curvature tensor, sectional curvature, and the Jacobi equation. This is the geometry of curved spaces — the mathematical language that GR is written in. Without it, Carroll's GR is manageable but Wald is noticeably harder. Read after Lee's Smooth Manifolds.
+
+### Track G: Lie Theory (after Stage 2 Track C: Aluffi + Stage 2 Track D: Munkres)
+
+- [ ] Lie Groups, Lie Algebras, and Representations, by Brian Hall
+  - The clearest rigorous treatment of Lie theory for a mathematical audience. Covers matrix Lie groups (GL, SL, SO, SU, Sp), the exponential map, Lie algebras, and the representation theory of SU(2), SU(3), and the Lorentz group. Hall builds intuition carefully — the exponential map is introduced geometrically before any formalism. This is an essential prerequisite for physics at the graduate level: angular momentum in QM is the representation theory of su(2); gauge theories in QFT are based on Lie group symmetries (U(1), SU(2), SU(3)); and the Lorentz group governs the entire structure of special and general relativity.
+  - Emphasize: Ch 1-5 (matrix Lie groups and the exponential map), Ch 6-10 (representations of SU(2), SU(3), and the Lorentz group). Ch 11-16 go deeper into general semisimple theory — important for the Standard Model (SU(3) × SU(2) × U(1)) but can be read alongside physics Stage 5 rather than as a prerequisite.
 
 ### Track D: Algebraic Topology (after Stage 2 Track D: Munkres)
 
