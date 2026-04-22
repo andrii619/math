@@ -169,6 +169,34 @@ Different tracks can be read in parallel.
 
 ---
 
+## Stage 5 (Optional — Pure Math Depth)
+
+This stage deepens the pure math foundation into areas that are not required for ML, control, or DSP but are essential for algebraic geometry and for understanding QFT and string theory at a research level. All tracks require Stage 3 to be complete. Different tracks can be read in parallel.
+
+### Track A: Commutative Algebra (after Stage 2 Track C: Aluffi)
+
+- [ ] Introduction to Commutative Algebra, by Atiyah and Macdonald
+  - ~130 pages. Covers rings, modules, localization, Noetherian rings, primary decomposition, and Krull dimension. The standard concise treatment — every theorem is precisely stated and proved. Required before Hartshorne and before serious algebraic geometry. Also useful for homological algebra.
+
+### Track B: Homological Algebra (after Track A + Stage 3 Track D: Hatcher)
+
+- [ ] An Introduction to Homological Algebra, by Charles Weibel
+  - The standard graduate reference. Covers chain complexes, derived functors (Ext and Tor), spectral sequences, and sheaf cohomology. Homological algebra is the connective tissue between algebra and topology — it underlies Hatcher's homology theory and is essential for algebraic geometry (sheaves, cohomology of schemes). In physics: BRST cohomology (the formalism for gauge fixing in QFT and the definition of physical states in string theory) is directly an application of this machinery.
+  - Emphasize: Ch 1-3 (chain complexes, derived functors). Ch 5 (spectral sequences) are important but can be deferred to when they're needed in context.
+
+### Track C: Riemann Surfaces (after Stage 2 Track B: Complex Analysis + Stage 3 Track C: Lee Smooth Manifolds)
+
+- [ ] Riemann Surfaces, by Simon Donaldson
+  - Short (~180 pages), beautifully motivated, and rigorous. Covers the definition of Riemann surfaces, meromorphic functions, the Riemann-Roch theorem, and the uniformization theorem. Donaldson writes in the style of this list — he explains the *why* at every step. The physics payoff is direct: the string worldsheet is a Riemann surface, string scattering amplitudes are integrals over moduli spaces of Riemann surfaces, and conformal field theory is naturally formulated on them.
+- [ ] Algebraic Curves and Riemann Surfaces, by Rick Miranda
+  - More comprehensive than Donaldson. Develops Riemann surfaces from both the analytic and algebraic perspectives simultaneously, building toward sheaf theory and the algebraic geometry connection. Read after Donaldson if you want the full bridge to Hartshorne.
+
+### Unlocked after Stage 5
+
+The "Other" section entry — Hartshorne's *Algebraic Geometry* — becomes accessible after completing all three tracks here. Algebraic geometry is relevant for string theory compactifications (Calabi-Yau manifolds, mirror symmetry) and is a deep area of pure mathematics in its own right.
+
+---
+
 ## Stage 4
 
 Pure math foundation complete — this stage applies it to the target domains. Different tracks can be read in parallel.
@@ -220,6 +248,13 @@ Pure math foundation complete — this stage applies it to the target domains. D
 ### Analysis
 
 - [ ] Understanding Analysis, Abbott
+- [ ] The Cauchy-Schwarz Master Class, by J. Michael Steele
+  - Develops the art of proving and applying inequalities: Cauchy-Schwarz, AM-GM, Jensen, Chebyshev, and more. Not a prerequisite for anything specific, but builds the kind of estimation intuition that appears constantly in analysis, probability, and ML theory. Well-written and proof-driven.
+
+### Group Theory
+
+- [ ] Group Theory and Quantum Mechanics, by Michael Tinkham
+  - The classic bridge from abstract representation theory to concrete QM applications: molecular symmetry, crystal field theory, angular momentum, selection rules, and the classification of particles by irreducible representations. Hall (Stage 3 Track G) gives the rigorous math foundation; Tinkham shows how physicists actually use it. Read alongside or after Sakurai.
 
 ### Algebra
 
@@ -267,4 +302,7 @@ Pure math foundation complete — this stage applies it to the target domains. D
 
 ## Other
 
+- [ ] Introduction to Commutative Algebra, by Atiyah and Macdonald
+  - Required before Hartshorne. ~130 pages. Covers rings, modules, localization, Noetherian rings, and dimension theory — the algebraic machinery that algebraic geometry runs on. Without this, Hartshorne is essentially unreadable.
 - [ ] Algebraic Geometry, by Hartshorne
+  - Prereq: Atiyah-Macdonald (commutative algebra) + Aluffi (algebra) + Hatcher (algebraic topology). Relevant for string theory (Calabi-Yau compactifications, mirror symmetry) but a deep commitment — not on the critical path for any other goal.
