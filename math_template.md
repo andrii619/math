@@ -174,9 +174,9 @@ These typeset like proper math operators:
 
 ### Standard spaces/notation
 
-* Open ball: `$B_r(x)$`
+* Open ball: $B_r(x)$
 * Closure/interior/boundary: `$\overline{A},\ A^\circ,\ \partial A$`
-* Sup/inf: `$\sup A,\ \inf A$`
+* Sup/inf: $\sup A,\ \inf A$
 * Limsup/liminf: `$\limsup a_n,\ \liminf a_n$`
 * Indicator: `$\mathbf 1_A$` or `$\mathbb 1_A$`
 
@@ -308,7 +308,7 @@ $\square$
 
 ## 18) Quick “symbol lookup” line (copyable)
 
-`$\in \notin \subseteq \subsetneq \cup \cap \setminus \varnothing \times \to \mapsto \forall \exists \Rightarrow \Leftrightarrow \sum \prod \lim \sup \inf \langle \rangle \lVert \rVert \Re \Im \ker \operatorname{im} \det \operatorname{tr}$`
+$\in \notin \subseteq \subsetneq \cup \cap \setminus \varnothing \times \to \mapsto \forall \exists \Rightarrow \Leftrightarrow \sum \prod \lim \sup \inf \langle \rangle \lVert \rVert \Re \Im \ker \operatorname{im} \det \operatorname{tr}$
 
 ```
 ```
